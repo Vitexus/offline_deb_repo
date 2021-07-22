@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include offline-deb-repo"
+      include_role:
+        name: "offline-deb-repo"
